@@ -49,8 +49,9 @@ body {
         padding: 20px 30px;
     }
     .fa-quote {
-        /* media quoery is not working on this class - no clue why */
-        display: none;
+        /* media query is not working on this class - no clue why */
+        display: none !important;
+        /* Works on any other setting, so if I make it important - no problem */
     }
 
 }
